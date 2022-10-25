@@ -21,7 +21,7 @@ export function toast({ title = '', message = '', type = '', duration = '' }) {
         toast.innerHTML = `
     
         <div class="toast__icon">
-          <span class="${icon} toast-icon-background">  </span>
+          <span class="${icon} toast-icon-background"></span>
         </div>
         <div class="toast__body">
           <h3 class="toast__title">
